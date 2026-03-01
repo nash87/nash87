@@ -65,4 +65,4 @@ Managed via GitOps (Flux CD), HA Vault for secrets, Cilium eBPF for network poli
 
 ---
 
-**Portfolio:** [infracraft.duckdns.org](https://infracraft.duckdns.org) &nbsp;|&nbsp; **Product:** [securanido.com](https://securanido.com) &nbsp;|&nbsp; **Available for consulting** — florian@goettinger.net
+**Portfolio:** [infracraft.duckdns.org](https://infracraft.duckdns.org) &nbsp;|&nbsp; **Product:** [securanido.com](https://securanido.com) &nbsp;|&nbsp; **Available for consulting** — fschulz0787@gmail.com
