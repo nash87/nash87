@@ -34,8 +34,8 @@
 
 | Project | Description | Lang |
 |---------|-------------|------|
-| [ParkHub Rust](https://github.com/nash87/parkhub-rust) | Self-hosted parking management v1.2.0 -- single Rust binary (Axum), Astro 6 + React 19 + Tailwind CSS 4 frontend, credits system, i18n (10 languages), dark mode, GDPR-compliant. [Live demo](https://parkhub-rust.onrender.com) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
-| [ParkHub PHP](https://github.com/nash87/parkhub-php) | Parking management for shared hosting v1.2.0 -- Laravel 12, Astro 6 + React 19 + Tailwind CSS 4 frontend, credits system, i18n (10 languages), dark mode, GDPR-compliant. [Live demo](https://parkhub-php.onrender.com) | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
+| [ParkHub Rust](https://github.com/nash87/parkhub-rust) | Self-hosted parking management v1.2.0 -- single Rust binary (Axum), Astro 6 + React 19 + Tailwind CSS 4 frontend, credits system, i18n (10 languages), dark mode, GDPR-compliant. [Live demo](https://parkhub-rust-demo.onrender.com) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
+| [ParkHub PHP](https://github.com/nash87/parkhub-php) | Parking management for shared hosting v1.2.0 -- Laravel 12, Astro 6 + React 19 + Tailwind CSS 4 frontend, credits system, i18n (10 languages), dark mode, GDPR-compliant. [Live demo](https://parkhub-php-demo.onrender.com) | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
 | [infracraft-demos](https://github.com/nash87/infracraft-demos) | Live interactive demos of homelab infrastructure patterns -- Astro + TypeScript | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | [legal](https://nash87.github.io/legal/) | GDPR-compliant legal pages with Playwright test suite -- deployed to GitHub Pages | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
 
