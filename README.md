@@ -1,11 +1,11 @@
-# Florian — Infrastructure Architect & DevOps Engineer
+# Florian -- Infrastructure Architect & DevOps Engineer
 
 <p align="center">
   <em>Jumping over the edge, not cutting it.</em>
 </p>
 
 <p align="center">
-  DevOps Engineer &amp; Infrastructure Architect — Göttingen, Germany<br>
+  DevOps Engineer &amp; Infrastructure Architect -- Gottingen, Germany<br>
   13+ years in IT infrastructure. Self-hosted everything. Zero vendor lock-in.
 </p>
 
@@ -34,19 +34,21 @@
 
 | Project | Description | Lang |
 |---------|-------------|------|
-| [parkhub-rust](https://github.com/nash87/parkhub-rust) | Self-hosted parking management — single Rust binary, AES-256-GCM encrypted storage, mDNS autodiscovery, GDPR-compliant | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
-| [parkhub-php](https://github.com/nash87/parkhub-php) | Parking management for shared hosting — Laravel 12 + React 19, recurring bookings, webhooks, GDPR | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
-| [infracraft-demos](https://github.com/nash87/infracraft-demos) | Live interactive demos of homelab infrastructure patterns — Astro + TypeScript | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| [legal](https://nash87.github.io/legal/) | GDPR-compliant legal pages with Playwright test suite — deployed to GitHub Pages | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| [ParkHub Rust](https://github.com/nash87/parkhub-rust) | Self-hosted parking management v1.2.0 -- single Rust binary (Axum), Astro 6 + React 19 + Tailwind CSS 4 frontend, credits system, i18n (10 languages), dark mode, GDPR-compliant. [Live demo](https://parkhub-rust.onrender.com) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
+| [ParkHub PHP](https://github.com/nash87/parkhub-php) | Parking management for shared hosting v1.2.0 -- Laravel 12, Astro 6 + React 19 + Tailwind CSS 4 frontend, credits system, i18n (10 languages), dark mode, GDPR-compliant. [Live demo](https://parkhub-php.onrender.com) | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
+| [infracraft-demos](https://github.com/nash87/infracraft-demos) | Live interactive demos of homelab infrastructure patterns -- Astro + TypeScript | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| [legal](https://nash87.github.io/legal/) | GDPR-compliant legal pages with Playwright test suite -- deployed to GitHub Pages | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
+
+Both ParkHub editions share the same modern frontend stack and feature set. Choose PHP for traditional shared hosting or Rust for a zero-dependency single-binary deployment.
 
 ---
 
 ## Production Systems
 
-- **Securanido** — 415K+ lines of production Rust — unified life platform (wiki, finance, health, K8s control) built on Leptos 0.8 WASM, TimescaleDB, CloudNativePG
-- **OpenClaw Fleet** — 14 coordinated AI agents across Kubernetes, Proxmox LXC, and Docker — 99.97% uptime, autonomous infrastructure remediation
-- **ClawRAG** — self-hosted RAG pipeline, 6,700+ indexed documents, ChromaDB + OpenAI embeddings, 8 curated collections
-- **CoveTrade** — autonomous Solana trading bot: Helius WebSocket → Gemini AI filter → Jupiter swap with Jito MEV protection
+- **Securanido** -- 415K+ lines of production Rust -- unified life platform (wiki, finance, health, K8s control) built on Leptos 0.8 WASM, TimescaleDB, CloudNativePG
+- **OpenClaw Fleet** -- 14 coordinated AI agents across Kubernetes, Proxmox LXC, and Docker -- 99.97% uptime, autonomous infrastructure remediation
+- **ClawRAG** -- self-hosted RAG pipeline, 6,700+ indexed documents, ChromaDB + OpenAI embeddings, 8 curated collections
+- **CoveTrade** -- autonomous Solana trading bot: Helius WebSocket, Gemini AI filter, Jupiter swap with Jito MEV protection
 
 Managed via GitOps (Flux CD), HA Vault for secrets, Cilium eBPF for network policy, Kyverno for admission control.
 
@@ -65,4 +67,4 @@ Managed via GitOps (Flux CD), HA Vault for secrets, Cilium eBPF for network poli
 
 ---
 
-**Portfolio:** [infracraft.duckdns.org](https://infracraft.duckdns.org) &nbsp;|&nbsp; **Product:** [securanido.com](https://securanido.com) &nbsp;|&nbsp; **Available for consulting** — fschulz0787@gmail.com
+**Portfolio:** [infracraft.duckdns.org](https://infracraft.duckdns.org) | **Product:** [securanido.com](https://securanido.com) | **Available for consulting** -- fschulz0787@gmail.com
