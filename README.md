@@ -20,7 +20,7 @@ A self-hosted platform that unifies AI agents, infrastructure automation, and bu
 
 <table>
 <tr><td><strong>93 Rust crates</strong></td><td>80 microservices + 13 CLI modules, all from one monorepo</td></tr>
-<tr><td><strong>136-page dashboard</strong></td><td>SvelteKit 2 + Svelte 5, 97K lines, 1260+ i18n keys (DE/EN)</td></tr>
+<tr><td><strong>186-page dashboard</strong></td><td>SvelteKit 2 + Svelte 5, 126K lines, 2600+ i18n keys (DE/EN)</td></tr>
 <tr><td><strong>8 AI agents</strong></td><td>Autonomous fleet — each with a role, memory, tools, and MCP access</td></tr>
 <tr><td><strong>85 API services</strong></td><td>Everything from finance to code search to agent orchestration</td></tr>
 <tr><td><strong>36,749 tests</strong></td><td>Automated quality harness across Rust, PHP, and Node</td></tr>
