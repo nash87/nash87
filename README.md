@@ -6,93 +6,90 @@
 
 <p align="center">
   Platform Engineer &amp; AI Systems Architect · Göttingen, Germany<br>
-  14+ years building infrastructure. Self-hosted everything. Zero vendor lock-in.
+  14+ years building production infrastructure. Self-hosted everything. Zero vendor lock-in.
 </p>
 
-> I build platforms I own and understand end-to-end.
-> Every layer is reproducible from Git. No managed black boxes.
+> I build the kind of platform most companies outsource to three vendors and a consulting firm.
+> One person, bare metal to UI. Every layer owned, every line reproducible from Git.
 
 ---
 
-## What I Build
+## Forge — AI-Native Operating Platform
 
-**Forge Platform** — A self-hosted AI-native operating platform running on bare-metal Kubernetes. 100+ microservices in Rust, 8 AI agents, real-time dashboards, GitOps-managed. Everything from code search to financial tracking to agent orchestration, built as modular Rust crates that work both as CLI tools and K8s services.
+A self-hosted platform that unifies AI agents, infrastructure automation, and business tools into a single system running on bare-metal Kubernetes. Not a wrapper around APIs. Not a dashboard for someone else's cloud. The real thing.
 
-Highlights:
-- 36+ Rust microservices, 600+ API endpoints
-- Multi-model AI agent fleet (Claude, Gemini, Ollama local inference)
-- SvelteKit 2 + Svelte 5 dashboard with 105+ pages
-- MCP, ACP, A2A protocol support
-- Flux CD GitOps, Cilium eBPF networking, Vault secrets
-- WireGuard VPN via Defguard for mobile access
+<table>
+<tr><td><strong>93 Rust crates</strong></td><td>80 microservices + 13 CLI modules, all from one monorepo</td></tr>
+<tr><td><strong>106-page dashboard</strong></td><td>SvelteKit 2 + Svelte 5, 75K lines, 1000+ i18n keys (DE/EN)</td></tr>
+<tr><td><strong>8 AI agents</strong></td><td>Autonomous fleet — each with a role, memory, tools, and MCP access</td></tr>
+<tr><td><strong>85 API services</strong></td><td>Everything from finance to code search to agent orchestration</td></tr>
+<tr><td><strong>36,749 tests</strong></td><td>Automated quality harness across Rust, PHP, and Node</td></tr>
+<tr><td><strong>267 pods</strong></td><td>Running across 3 nodes, 57 namespaces, fully GitOps-managed</td></tr>
+</table>
+
+The platform handles its own builds, deployments, monitoring, knowledge management, security scanning, and task scheduling. The AI agents don't just answer questions — they operate infrastructure, analyze code, monitor markets, and coordinate with each other through a custom agent bus.
+
+What makes this different: every component is a Rust crate that works both as a CLI tool on my laptop and as a K8s microservice in production. Same code, two runtimes. No vendor lock-in at any layer.
 
 ---
 
 ## Stack
 
-**Languages**
+**Core**
 <p>
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Svelte_5-FF3E00?style=flat-square&logo=svelte&logoColor=white" alt="Svelte 5">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-</p>
-
-**Infrastructure**
-<p>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
   <img src="https://img.shields.io/badge/Cilium-F8C517?style=flat-square&logo=cilium&logoColor=black" alt="Cilium">
   <img src="https://img.shields.io/badge/Flux_CD-5468FF?style=flat-square&logo=flux&logoColor=white" alt="Flux CD">
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm">
-  <img src="https://img.shields.io/badge/Podman-892CA0?style=flat-square&logo=podman&logoColor=white" alt="Podman">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
 </p>
 
 **AI & Data**
 <p>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
   <img src="https://img.shields.io/badge/Claude-6B46C1?style=flat-square" alt="Claude">
   <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/SurrealDB-FF00A0?style=flat-square&logo=surrealdb&logoColor=white" alt="SurrealDB">
   <img src="https://img.shields.io/badge/Qdrant-DC382D?style=flat-square" alt="Qdrant">
 </p>
 
-**Security & Networking**
+**Infrastructure**
 <p>
-  <img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" alt="HashiCorp Vault">
+  <img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" alt="Vault">
   <img src="https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white" alt="WireGuard">
-  <img src="https://img.shields.io/badge/Kyverno-FF9800?style=flat-square&logo=kubernetes&logoColor=white" alt="Kyverno">
-  <img src="https://img.shields.io/badge/cert--manager-326CE5?style=flat-square" alt="cert-manager">
+  <img src="https://img.shields.io/badge/Kyverno-FF9800?style=flat-square" alt="Kyverno">
+  <img src="https://img.shields.io/badge/Podman-892CA0?style=flat-square&logo=podman&logoColor=white" alt="Podman">
+  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
 </p>
 
 ---
 
 ## Open Source
 
-| Project | Description | Stack |
+| Project | What it does | Stack |
 |---------|-------------|-------|
-| [ParkHub Rust](https://github.com/nash87/parkhub-rust) | Self-hosted parking management. Single binary, embedded redb, Astro 6 + React 19, credits, i18n (10 langs), GDPR. [Demo](https://parkhub-rust-demo.onrender.com) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
-| [ParkHub PHP](https://github.com/nash87/parkhub-php) | Same features, shared hosting friendly. Laravel 12, MySQL/SQLite, Astro 6 + React 19. [Demo](https://parkhub-php-demo.onrender.com) | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
-| [infracraft-demos](https://github.com/nash87/infracraft-demos) | Live interactive demos — both ParkHub editions running side by side | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| [ParkHub Rust](https://github.com/nash87/parkhub-rust) | Self-hosted parking management. Single binary, zero dependencies, 10 languages. [Live](https://parkhub-rust-demo.onrender.com) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) |
+| [ParkHub PHP](https://github.com/nash87/parkhub-php) | Same product, built for shared hosting. Laravel 12 + MySQL. [Live](https://parkhub-php-demo.onrender.com) | ![PHP](https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white) |
+| [infracraft-demos](https://github.com/nash87/infracraft-demos) | Both ParkHub editions running side by side | ![HTML](https://img.shields.io/badge/Astro_6-BC52EE?style=flat-square&logo=astro&logoColor=white) |
 
 ---
 
-## Infrastructure
+## How It's Built
 
-| Layer | Stack |
-|-------|-------|
-| **Compute** | kubeadm cluster, 3 nodes (2x CP + 1 RPi5 witness) |
-| **Orchestration** | Kubernetes 1.32, kubeadm-managed |
-| **GitOps** | Flux CD — declarative cluster state from Git |
-| **Networking** | Cilium (eBPF CNI + network policy + Hubble) |
+| Layer | What runs there |
+|-------|----------------|
+| **Compute** | 3-node kubeadm cluster (2 CP + RPi5 witness), bare metal |
+| **GitOps** | Flux CD — every change lands via Git, auto-reconciled |
+| **Networking** | Cilium eBPF — CNI, network policy, Hubble observability |
 | **Secrets** | HashiCorp Vault (HA) + External Secrets Operator |
-| **Policy** | Kyverno admission controller |
-| **VPN** | Defguard (WireGuard) — mobile access to homelab |
-| **Registry** | Zot OCI registry (self-hosted) |
-| **DNS** | CoreDNS + internal `.test` zone |
-| **TLS** | cert-manager with internal CA |
+| **Policy** | Kyverno — admission control, image signing, best practices |
+| **VPN** | Defguard (WireGuard) — full mobile access to the homelab |
+| **Registry** | Zot OCI — self-hosted container images |
+| **AI Protocols** | MCP + ACP + A2A — agents talk to tools, services, and each other |
+| **Orchestration** | Custom Cast Engine — declarative multi-step workflows in TOML |
 
 ---
 
@@ -107,19 +104,13 @@ Highlights:
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/nash87">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=nash87&theme=github-dark-blue&hide_border=true" alt="GitHub Streak">
-  </a>
-</p>
-
 ---
 
 <p align="center">
   <a href="https://securanido.com">securanido.com</a> ·
-  <a href="https://nash87.github.io/infracraft-demos">Live Demos</a> ·
   <a href="https://www.linkedin.com/in/florian-schulz-3b0648108/">LinkedIn</a> ·
-  <a href="mailto:fschulz0787@gmail.com">fschulz0787@gmail.com</a>
+  <a href="mailto:fschulz0787@gmail.com">Email</a> ·
+  <a href="https://nash87.github.io/infracraft-demos">Live Demos</a>
 </p>
 
 <p align="center">
