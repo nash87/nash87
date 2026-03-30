@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Platform Engineer &amp; AI Systems Architect -- Goettingen, Germany<br>
+  Platform Engineer &amp; AI Systems Architect · Göttingen, Germany<br>
   14+ years building infrastructure. Self-hosted everything. Zero vendor lock-in.
 </p>
 
@@ -16,7 +16,7 @@
 
 ## What I Build
 
-**Forge Platform** -- A self-hosted AI-native operating platform running on bare-metal Kubernetes. 100+ microservices in Rust, 8 AI agents, real-time dashboards, GitOps-managed. Everything from code search to financial tracking to agent orchestration, built as modular Rust crates that work both as CLI tools and K8s services.
+**Forge Platform** — A self-hosted AI-native operating platform running on bare-metal Kubernetes. 100+ microservices in Rust, 8 AI agents, real-time dashboards, GitOps-managed. Everything from code search to financial tracking to agent orchestration, built as modular Rust crates that work both as CLI tools and K8s services.
 
 Highlights:
 - 36+ Rust microservices, 600+ API endpoints
@@ -75,7 +75,7 @@ Highlights:
 |---------|-------------|-------|
 | [ParkHub Rust](https://github.com/nash87/parkhub-rust) | Self-hosted parking management. Single binary, embedded redb, Astro 6 + React 19, credits, i18n (10 langs), GDPR. [Demo](https://parkhub-rust-demo.onrender.com) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
 | [ParkHub PHP](https://github.com/nash87/parkhub-php) | Same features, shared hosting friendly. Laravel 12, MySQL/SQLite, Astro 6 + React 19. [Demo](https://parkhub-php-demo.onrender.com) | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
-| [infracraft-demos](https://github.com/nash87/infracraft-demos) | Live interactive demos -- both ParkHub editions running side by side | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| [infracraft-demos](https://github.com/nash87/infracraft-demos) | Live interactive demos — both ParkHub editions running side by side | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
 
 ---
 
@@ -85,11 +85,11 @@ Highlights:
 |-------|-------|
 | **Compute** | kubeadm cluster, 3 nodes (2x CP + 1 RPi5 witness) |
 | **Orchestration** | Kubernetes 1.32, kubeadm-managed |
-| **GitOps** | Flux CD -- declarative cluster state from Git |
+| **GitOps** | Flux CD — declarative cluster state from Git |
 | **Networking** | Cilium (eBPF CNI + network policy + Hubble) |
 | **Secrets** | HashiCorp Vault (HA) + External Secrets Operator |
 | **Policy** | Kyverno admission controller |
-| **VPN** | Defguard (WireGuard) -- mobile access to homelab |
+| **VPN** | Defguard (WireGuard) — mobile access to homelab |
 | **Registry** | Zot OCI registry (self-hosted) |
 | **DNS** | CoreDNS + internal `.test` zone |
 | **TLS** | cert-manager with internal CA |
@@ -116,9 +116,10 @@ Highlights:
 ---
 
 <p align="center">
+  <a href="https://securanido.com">securanido.com</a> ·
   <a href="https://nash87.github.io/infracraft-demos">Live Demos</a> ·
-  <a href="mailto:fschulz0787@gmail.com">fschulz0787@gmail.com</a> ·
-  Available for platform engineering & infrastructure consulting
+  <a href="https://www.linkedin.com/in/florian-schulz-3b0648108/">LinkedIn</a> ·
+  <a href="mailto:fschulz0787@gmail.com">fschulz0787@gmail.com</a>
 </p>
 
 <p align="center">
