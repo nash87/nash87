@@ -108,7 +108,7 @@ What makes this different: every component is a Rust crate that works both as a 
 
 <p align="center">
   <a href="https://securanido.com">securanido.com</a> ·
-  <a href="https://www.linkedin.com/in/florian-schulz-3b0648108/">LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/florian-schulz-a312bb137">LinkedIn</a> ·
   <a href="mailto:fschulz0787@gmail.com">Email</a> ·
   <a href="https://nash87.github.io/infracraft-demos">Live Demos</a>
 </p>
