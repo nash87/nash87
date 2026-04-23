@@ -1,13 +1,46 @@
-# Florian Schulz — Platform Engineer
+# Florian Schulz
 
 <p align="center">
-  <em>Rust, Kubernetes, automation, and self-hosted infrastructure for production systems.</em>
+  <em>Self-hosted AI platforms — bare-metal Kubernetes, multi-vendor LLM orchestration, agent protocols.</em>
 </p>
 
 <p align="center">
-  Platform Engineer — Göttingen, Germany<br>
-  14+ years in infrastructure, automation, and systems operations.
+  Göttingen, Germany &nbsp;·&nbsp; 14+ years operating production systems<br>
+  <sub>Private home lab and proof-of-concept environment. Not a commercial offering.</sub>
 </p>
+
+---
+
+## Currently in the lab
+
+- A Rust-native platform layer running dual-mode (local CLI + Kubernetes microservices) — **200+ modular service crates**, unified through a SvelteKit operator UI.
+- An AI-first phone OS prototype on SHIFTphone 8 (postmarketOS + Slint UI) — voice-driven, with on-device local LLM and an experimental agent runtime.
+- A multi-agent fleet of **6+ specialized AI bots** (Claude + Gemini + Haiku + local Ollama on RTX 4070), coordinating over NATS JetStream and A2A v1.0 on bare-metal Kubernetes.
+- End-to-end supply chain — cosign signatures, SBOM attestations, Kyverno PSS, Cilium + SPIRE mTLS, GitOps via Flux 2.4. **~50 platform services** on local hardware in Germany.
+
+---
+
+## Open Source (the public slice)
+
+Most of the lab work above runs on internal repos. The public open-source slice:
+
+| Project | Description | Lang |
+|---------|-------------|------|
+| [ParkHub Rust](https://github.com/nash87/parkhub-rust) | Self-hosted parking management — Axum + Astro 6 + React 19 + Tailwind 4. v4.13.0, GDPR-compliant, MIT. [Live demo](https://parkhub-rust-demo.onrender.com) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
+| [ParkHub PHP](https://github.com/nash87/parkhub-php) | Same product on Laravel 13 + PHP 8.4 for shared hosting. Identical Astro 6 + React 19 + Tailwind 4 frontend, MySQL/SQLite. [Live demo](https://parkhub-php-demo.onrender.com) | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
+| [parkhub-site](https://github.com/nash87/parkhub-site) | ParkHub marketing site — Astro 6 + React 19 + Tailwind 4 on GitHub Pages. [Live](https://nash87.github.io/parkhub-site/) | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) |
+| [legal](https://nash87.github.io/legal/) | GDPR-compliant legal pages (Impressum & Datenschutz) — deployed to GitHub Pages | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
+
+Both ParkHub editions share the same product direction and frontend. The Rust edition targets self-hosted single-binary deployment; the PHP edition fits conventional shared-hosting environments.
+
+---
+
+## How I work
+
+- **Build, don't consume** — Rust-native implementations over npm-glue and SaaS lock-in.
+- **Self-hosted by default, sovereign by design** — bare-metal Kubernetes in Germany, GDPR-compliant, no foreign cloud.
+- **Production-grade from day one** — observability, mutual TLS, signed builds, and SBOM attestations are not afterthoughts.
+- **Multi-vendor AI orchestration** — Anthropic primary, with OpenAI, Google, and local fallback. No single-vendor lockout.
 
 ---
 
@@ -17,44 +50,16 @@
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Flux_CD-5468FF?style=flat-square&logo=flux&logoColor=white" alt="Flux CD">
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible">
-  <img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" alt="HashiCorp Vault">
+  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white" alt="Svelte">
   <img src="https://img.shields.io/badge/Cilium-F8C517?style=flat-square&logo=cilium&logoColor=black" alt="Cilium">
+  <img src="https://img.shields.io/badge/Flux_CD-5468FF?style=flat-square&logo=flux&logoColor=white" alt="Flux CD">
+  <img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" alt="HashiCorp Vault">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+  <img src="https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic">
 </p>
 
 ---
 
-## Open Source
-
-| Project | Description | Lang |
-|---------|-------------|------|
-| [ParkHub Rust](https://github.com/nash87/parkhub-rust) | Parking management in Rust — Axum + Astro 6 + React 19 + Tailwind 4. QR check-in, swap requests, guest passes, 2FA/WebAuthn, 12 themes, 10 languages, GDPR. [Live demo](https://parkhub-rust-demo.onrender.com) | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
-| [ParkHub PHP](https://github.com/nash87/parkhub-php) | Same product on Laravel 13 + PHP 8.4 for shared hosting. Identical Astro 6 + React 19 + Tailwind 4 frontend, MySQL/SQLite. [Live demo](https://parkhub-php-demo.onrender.com) | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
-| [parkhub-site](https://github.com/nash87/parkhub-site) | ParkHub marketing site — Astro 6 + React 19 + Tailwind 4, deployed to GitHub Pages. [Live](https://nash87.github.io/parkhub-site/) | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) |
-| [legal](https://nash87.github.io/legal/) | GDPR-compliant legal pages (Impressum & Datenschutz) — deployed to GitHub Pages | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
-
-Both ParkHub editions share the same product direction and frontend. The Rust edition targets self-hosted single-binary deployment; the PHP edition fits conventional shared-hosting environments.
-
----
-
-## Infrastructure & Operations
-
-Bare-metal Kubernetes, GitOps-driven delivery, HA Vault for secrets, Cilium for network policy, Kyverno for admission control, and Ansible for provisioning. Proxmox for virtualization, PostgreSQL and related services for stateful workloads, and `fop` for local build orchestration.
-
----
-
-## Stats
-
-<p>
-  <img src="https://img.shields.io/badge/Repos-7-181717?style=flat-square&logo=github&logoColor=white" alt="Repositories">
-  <img src="https://img.shields.io/badge/Languages-Rust%20%7C%20PHP%20%7C%20TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="Languages">
-  <img src="https://img.shields.io/badge/Focus-Platforms%20%7C%20Automation%20%7C%20Tooling-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Focus">
-</p>
-
----
-
-**Personal site:** [securanido.com](https://securanido.com) &nbsp;|&nbsp; **ParkHub:** [nash87.github.io/parkhub-site](https://nash87.github.io/parkhub-site/) &nbsp;|&nbsp; **LinkedIn:** [florian-schulz-a312bb137](https://www.linkedin.com/in/florian-schulz-a312bb137) &nbsp;|&nbsp; **Contact:** fschulz0787@gmail.com
+**Personal site:** [securanido.com](https://securanido.com) &nbsp;·&nbsp; **ParkHub:** [nash87.github.io/parkhub-site](https://nash87.github.io/parkhub-site/) &nbsp;·&nbsp; **LinkedIn:** [florian-schulz-a312bb137](https://www.linkedin.com/in/florian-schulz-a312bb137) &nbsp;·&nbsp; **Contact:** fschulz0787@gmail.com
