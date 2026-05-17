@@ -1,13 +1,14 @@
 # Florian Schulz
 
-> Self-hosted AI platforms. Bare-metal Kubernetes, multi-vendor LLM orchestration, agent protocols. Göttingen, DE — 14+ years in production systems.
+**fop is the control plane I built to run everything I do.** One Rust binary: a CLI in my terminal and, from the same crates, signed microservices in Kubernetes. Every build, test, deploy and agent task goes through it — including a multi-CLI harness where Claude, Codex, Kimi and Gemini work as parallel coding agents on one shared task board. The fully open-source slice of this is ParkHub.
 
 Full write-up: **[securanido.com](https://securanido.com)**.
 
 ## Currently in the lab
 
-- A Rust-native platform layer running dual-mode — one CLI locally, the same crates as Kubernetes microservices, unified by a SvelteKit operator UI.
-- An AI-first phone OS prototype on a SHIFTphone 8 (postmarketOS + Slint) — voice-driven, on-device LLM, agent runtime.
+- fop — a Rust control plane where ~50 services are each both a local subcommand and a signed Kubernetes microservice. Same code, two runtimes. Private home lab in Germany, research and demonstration, end to end.
+- A multi-CLI agent harness — Claude, Codex, Kimi and Gemini run as parallel coding agents inside the same control plane, coordinating through one shared task board with worktree isolation and a build queue.
+- An AI-first phone OS on a Linux mainline handset — postmarketOS, a Slint-native UI, and an on-device LLM running the same agent runtime as the cluster. The phone is a first-class target of the platform, not a companion app.
 - A multi-agent fleet coordinating over NATS JetStream and A2A v1.0 across Anthropic, Google, and local Ollama.
 
 ## Public open source
