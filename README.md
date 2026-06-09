@@ -20,8 +20,8 @@ Full write-up and release countdown: **[securanido.com](https://securanido.com)*
 - **An AI-first phone OS** on a Linux mainline handset — postmarketOS, a Rust-native UI, and an
   on-device LLM running the same agent runtime as the cluster. The phone is a first-class
   target of the platform, not a companion app.
-- **A multi-agent fleet** coordinating over NATS JetStream and A2A v1.0 across Anthropic,
-  Google, and local Ollama.
+- **A multi-agent fleet** coordinating over an A2A v1.0 bus (NATS JetStream integration in
+  progress) across Anthropic, Google, and local Ollama.
 
 ## Public open source
 
